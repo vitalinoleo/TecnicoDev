@@ -1,0 +1,13 @@
+body {
+    background-color:gray;
+    /* aqui todo o body vai ter a cor cinza  */
+}
+#menu {
+    /* Esse menu está com o # porque o menu é um ID  */
+    width: 100%;
+    /* largura  */
+    height: 80px;
+    /* altura  */
+    background-color: red;
+    /* Cor vermelha  */
+}

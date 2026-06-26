@@ -1,0 +1,25 @@
+Aprendizagem 
+
+Pude aprender que o input pode me ajudar a criar muitas coisas. 
+
+inputs que eu utilizei:
+
+input type: name 
+Serviu parqa o usuário poder colocar seu nome, sem muitas restrições. 
+
+input type: email 
+Ele já é um pouco diferente, tem restrições. Tudo que não tiver formato de email ele não vai validar. 
+
+input type: submit 
+ele cria um botão para enviar o formulário. 
+
+obs: Eu posso ter uma outra opção de botão também que é o:
+input type: button 
+Mas esse é mais comum quando não é para formulário, ou não precisa envir algo para o servidor. Não é automático, precisa do javaScript para funcionar de forma correta. 
+
+
+input type: password
+ele não mostra a senha quando é digitada, apenas *****
+
+input type: checkbox
+Ele me da a opção de caixinha para marcar uma opção 

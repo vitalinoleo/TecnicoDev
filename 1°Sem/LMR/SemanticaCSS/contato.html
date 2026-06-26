@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <div id="contact">
+        <h1>Envie a mensagem</h1>
+        <form action="#" method="post">
+            <!-- esse método form cria um formulário, 
+             o action informa para onde esses dados vão ir
+             O method define como como os dados serão enviados
+             o get mostra os dados no URL, o post é de forma oculta ( mais usado para form )  -->
+            <div class="campo">
+                <!-- Criando um campo para o nome:  -->
+                <label for="name">Nome:</label> <br>
+                <!-- com esse for eu não preciso clicar exatamente no campo para escrever, 
+                 o cursor vai automaticamente, sem le eu preciso clicar direto no campo mesmo  -->
+
+                <input type="text" id="name" placeholder="Nome" name="name" /><br>
+                <!-- input é um campo de entrada, que eu escolhi o tipo dele texto -->
+                 <!-- ou seja, aqui é onde o usuário vai escrever o nome dela 
+                  O placeholder é o texto que fica dentro da caixa de texto apenas como exemplo.
+                  O ID é o que liga o input com o label. 
+                  esse name serve para a informação ser guardada dentro de name, sem ele o navegador não vai saber onde guardar
+                 -->
+            </div>
+
+            <div class="campo">
+                <!-- criando um campo para colocar o email  -->
+                <label for="email">Email:</label>
+                <!-- com esse for eu preciso clicar somente no email, não no espaço para escrever.  -->
+                
+                <input type="email" id="email" placeholder="Email" name="name" /><br>
+                <!-- caixa de texto para o usuário poder escrever o email
+                 esse type ele valida o email, tudo o que não tiver (leo@gmail.com) nesse padrão é inválido. 
+                 O ID é o que liga o input com o label. 
+                 esse name serve para a informação ser guardada dentro de name, sem ele o navegador não vai saber onde guardar
+                -->
+            </div>
+            <label for="message">Mensagem:</label>
+            <!-- com esse for eu preciso apenas clicar em " mensagem " para ter acesso ao campo de mensagem.  -->
+            <textarea id="message" placeholder="Mensagem" name="name"></textarea><br>
+            <!-- Esse textarea é um campo para textos longos, diferente de um input  
+             esse name serve para a informação ser guardada dentro de name, sem ele o navegador não vai saber onde guardar-->
+
+            <input type="submit" value="Enviar" />
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <!-- criando uma divisória para fazer o login -->
+    <div class="login">
+        <h1>Login</h1>
+        <!-- titulo para o login  -->
+        <form action="#" method="post" class="form">
+            <!-- criando um formulário mehod POST (oculta as informações colocadas nos campos), class form para identificar  -->
+            <input type="text" placeholder="Usuário" class="entrada">
+            <!-- criando campo para o usuário poder escrever o nome  -->
+            <input type="password" placeholder="Senha" class="entrada">
+            <!-- criando campo para o usuário colocar a senha  -->
+            <div class="remember">
+                <!-- criando uma divisória para poder colocar a opção esqueci minha senha  -->
+                <input type="checkbox" name="remember-me" id="remember-me">
+                <!-- Ele cria uma opção para marcar, como se fosse um aceito todos os termos, que normalmente aparecem nos sites
+                 Essa é a função do checkbox
+                 esse name ele salva no servidor que o usuário colocou a opção relembrar, como se tivesse ficado da seguinte forma no servidor:
+                 rememberMe=on 
+                 Gravará essa informação dentro do remembe-me do servidor.  -->
+                 <label for="remember-me">Remember-me</label>
+                 <!-- Aqui quando a pessoa clicar no nome "remembe-me" o checkbox será marcado  -->
+                <a href="#" target="_blank">Esqueci a senha</a>
+                <!-- esse target=blank quando o clienste clicar no link ele abre em outra aba 
+                 sem esse blank ela abre na mesma aba -->
+            </div>
+            <input type="submit" value="Entrar" class="botao">
+        </form>
+    </div>
+    
+</body>
+</html>
