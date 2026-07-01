@@ -5,9 +5,48 @@ body {
 #menu {
     /* Esse menu está com o # porque o menu é um ID  */
     width: 100%;
-    /* largura  */
+    /* largura vai ocupar 100% da página */
     height: 80px;
     /* altura  */
     background-color: red;
     /* Cor vermelha  */
+}
+#menu img {
+    height: 60px;
+    /* Quero que o logo ocupe apenas 60px do meu menu  */
+}
+.linkMenu {
+    /* ponto porque o linkMenu é class  */
+    color: aliceblue;
+    /* cor da letra odos menus  */
+    font-size: 1em;
+    /* tamanho das letras */
+    margin-left: 20px;
+    /* Aqui eu to dando um espaço de 20px para a esquerda de cada palavra. */
+    margin-right: 20px;
+    /* Esse cria um espaço de 20px para o lado direito da palavra  */
+    text-decoration: none;
+    /* Como ele era um href, o nome ficou sublinhado, indicando um link, mas esse none tirou  */
+}
+.parte1 {
+    width: 100%;
+    /* quero que ocupe 100% da largura da minha página */
+    height: 800px;
+    /* quero que tenha 800px de altura */
+    text-align: center;
+    /* peguei todo os elementos que estavão dentro dessa class e centralizei no site */
+    margin-top: 20px;
+    /* coloquei uma margem na parte de cima dessa classe, separando ela um pouco do Menu */
+}
+.parte1 h1 {
+    /* tudo o que estiver escrito em h1 dentro dessa classe será alterado aqui. */
+    color: red;
+    /* meu titulo vai ser em vermelho  */
+}
+.parte1 p {
+    /* o p que estiver dentro da class parte1 vai ter essas seguinte configurações */
+    font-family: 'Times New Roman', Times, serif;
+    /* /* quero que o estilo da minha fonte deseja times new romam  */
+    color: azure;
+    /* cor do texto em azure */
 }

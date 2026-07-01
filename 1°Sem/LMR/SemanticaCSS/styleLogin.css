@@ -1,0 +1,21 @@
+body {
+    background: rgb(2, 0, 36);
+    /* colocando uma cor no meu cody  */
+    background: linear-gradient(
+        90deg, 
+    rgba(2, 0, 36, 1) 0%, 
+    rgba(9, 28, 121, 1) 35%, 
+    rgba(5, 185, 132, 1) 66%, 
+    rgba(0, 212, 255, 1) 100%);  
+      /*linear gradiente é apra criar um degrade em linha reta
+      o 90deg ( °) siginifica a dirfeção do degrade, que nesse caso vai para direta 
+      90deg >
+      0deg  ^
+      180deg (para baixo) 
+      270deg ><
+      rgba forma que cada cor é escrita
+      a porcentagem é a posição de cada cor, por exemplo: 
+      0% use essa cor 
+      35% use essa cor 
+      66% use essa cor */
+}
