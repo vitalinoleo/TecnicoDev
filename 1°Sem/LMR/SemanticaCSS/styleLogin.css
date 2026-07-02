@@ -3,10 +3,10 @@ body {
     /* colocando uma cor no meu cody  */
     background: linear-gradient(
         90deg, 
-    rgba(2, 0, 36, 1) 0%, 
-    rgba(9, 28, 121, 1) 35%, 
-    rgba(5, 185, 132, 1) 66%, 
-    rgba(0, 212, 255, 1) 100%);  
+    rgb(214, 3, 3) 0%, 
+    rgb(245, 0, 82) 35%, 
+    rgb(248, 167, 167) 66%, 
+    rgb(210, 245, 252) 100%);  
       /*linear gradiente é apra criar um degrade em linha reta
       o 90deg ( °) siginifica a dirfeção do degrade, que nesse caso vai para direta 
       90deg >
@@ -17,5 +17,111 @@ body {
       a porcentagem é a posição de cada cor, por exemplo: 
       0% use essa cor 
       35% use essa cor 
-      66% use essa cor */
+      66% use essa cor 
+      100% use essa cor*/
+}
+.login {
+    margin-left: auto;
+    /* o margin left empurra o elemento para a direita, mas se eu não determinar um tamanho não muda nada  */
+    width: 300px;
+    /* aqui estou dando o tamanho dele, por isso só vemos diferença depois disso  */
+    margin-right: auto;
+    /* o margin right joga esse elemnento para a esquerda. Como eu quero o elemento centralizado eu usei os dois métodos para isso  */
+    height:300px ;
+    /* Aqui estou dando um comprimento para a minha div  */
+    margin-top: 20%;
+    /* Desci mais essa div para aparenntar estar centralizado na pagina  */
+    text-align: center;
+    /* antes tudo o que estava escrito dentro dessa div estava na esquerda, agora estão centralizados dentro da div  */
+    
+}
+.login h1 {
+    /* aqui vou editar o meu titulo dentro da div  */
+    color: #fff;
+    /* mudando a cor do titulo */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* mudando a fonte do titulo  */
+    text-align: center;
+    /* centralizando meu titulo  */
+}
+.entrada {
+    /* aqui vou editar o campo para o usuário póder colocar o usuario e senha */
+    width: 98%;
+    /* quero que a largura do campo do usuário e de senha seja do tamanho da div  */
+    margin-bottom:10px ;
+    /* entre o campo da senha e o campo do usuario eu quero que tenha um espaço de 10 pixels.  */
+    background-color:rgba(0, 0, 0, 0.114) ;
+    /* agora o campo de usuário e senha não é mais branco, e sim quase transparente  */
+    font-size: 15px;
+    /* tamanho da fonte  */
+    color:#fff;
+    /* o color define a cor do texto dentro da caixa de usuário e senha  */
+    border: 1px solid rgba(0, 0, 0, 0.191);
+    /* Aqui eu criei uma borda de 1pixel com a cor quase transparente  */
+    padding: 10px;
+    /* a caixa apra colocar usuário e senha estava muito pequeno, aqui eu aumentei o tamanho  */
+    text-align: center;
+    /* o placeholder foi centralizado  */
+}
+.remember {
+    text-align: inherit;
+    /* nesse caso eu quero que o text align do .remember seja o mesmo que a do elemento pai (.login). Esse Inherit significa herdar  */
+    font-size: 15px;
+    /* alterando o tamanho da fonte */
+    color: #fff;
+    /* alterando a cor da letra */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* alterando a fonte da escrita */
+}
+.remember a {
+    margin-left: 50px;
+    /* empurrando o elemento para a direita */
+    color: #fff;
+    /* cor da letra */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.botao {
+    width: 40%;
+    /* mudando o tamanho do botão */
+    margin-left:auto ;
+    /* colocando o elemento para a direita  */
+    margin-right:auto ;
+    /* colocando o elemento para a esquerda, ou seja
+    Utilizando os dois eu coloco o botão centralizado */
+    margin-bottom: 10px;
+    /* o proximo elemento que vier em baixo do botão terá uma distancia de 10pixels  */
+    margin-top: 10px;
+    /* aqui é ao contrário, o elemento de cima vai ter uma distância de 10pixels  */
+    padding: 10px;
+    /* alterando o tamanho do botão  */
+    font-size: 20px;
+    /* tamanho da fonte  */
+    background-color: #fff;
+    /* cor do botão  */
+    border: 1px solid rgba(255, 255, 255, 0.088);
+     /* coloquei uma borda de 1 pixel com cor  */
+     text-align: center;
+     /* Centralizei o texto dentro do botão  */
+}
+.botaoVoltar {
+    width: 40%;
+    /* mudando o tamanho do botão */
+    margin-left: auto;
+    margin-right: auto;
+    /* centralizando o botão */
+    margin-bottom: 10px;
+    /* Elemento de baixo terá uma distancia de 10px  */
+    margin-top: 10px;
+    /* elemento de cima terá uma distancia de 10px  */
+    padding: 10px;
+    /* largura do botão  */
+    font-size: 20px;
+    /* alterando o tamanho da letra  */
+    background-color: #fff;
+    /* cor do botão  */
+    border: 1px solid rgba(255, 255, 255, 0.088);
+    /* colocando uma borda de 1 pixel e colocando uma cor  */
+    text-align: center;
+    /* centralizando o texto dentro do botão  */
 }
